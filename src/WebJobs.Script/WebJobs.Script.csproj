@@ -428,6 +428,7 @@
     <Compile Include="Binding\WebJobsCoreScriptBindingProvider.cs" />
     <Compile Include="Binding\SimpleValueProvider.cs" />
     <Compile Include="Config\FeatureFlags.cs" />
+    <Compile Include="Config\HostHealthMonitorConfiguration.cs" />
     <Compile Include="Description\Binding\Cardinality.cs" />
     <Compile Include="Description\Compilation\CompilationServiceException.cs" />
     <Compile Include="Description\Compilation\ICompilation.cs" />

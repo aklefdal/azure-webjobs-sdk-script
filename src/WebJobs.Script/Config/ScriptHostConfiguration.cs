@@ -135,5 +135,7 @@ namespace Microsoft.Azure.WebJobs.Script
         /// Gets or sets a test hook for modifying the configuration after host.json has been processed.
         /// </summary>
         internal Action<ScriptHostConfiguration> OnConfigurationApplied { get; set; }
+
+        public HostHealthMonitorConfiguration HostHealthMonitor { get; set; }
     }
 }
